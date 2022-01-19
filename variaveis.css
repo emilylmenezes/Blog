@@ -57,7 +57,7 @@ h2{
 
 .barra{
   height: 65px;
-  width: 900px;
+  width: 940px;
   margin-top: 140px;
   border-radius: 5px;
   background: #FFFFFF33 20%;
@@ -67,10 +67,15 @@ h2{
   cursor: pointer;
 }
 
+::placeholder{
+  color: #FFFFFF;
+}
+
 .container{
   padding: 15px;
 }
 .post{
+  position: relative;
   max-width: 900px;
   width: 100%;
   height: 190px;
@@ -92,7 +97,12 @@ textarea:focus, input:focus, select:focus{
 } 
 
 
+.coracao{
+  width: 25px;
+  position: absolute;
+  right: 10px;
 
+}
 
 
 
