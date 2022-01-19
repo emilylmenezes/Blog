@@ -64,6 +64,7 @@ h2{
   border: none;
   font-size: 20px;
   text-align: center;
+  cursor: pointer;
 }
 
 .container{
@@ -83,6 +84,13 @@ h2{
 input:focus::-webkit-input-placeholder {
   color: transparent;
 }
+
+textarea:focus, input:focus, select:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+
 
 
 
