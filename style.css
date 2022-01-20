@@ -103,22 +103,50 @@ textarea:focus, input:focus, select:focus{
   right: 10px;
 }
 
-
 @media screen and (max-width: 900px) and (min-width: 320px) {
   
   .cabecalho h1{
-    margin-left: -200px;
-    margin-top: 70px;
+    position: absolute;
+    margin: 0 auto;
+    left: 15px;
+    top: 41px;
+  }
+
+  .cabecalho h2{
+    position: absolute;
+    height: 30px;
+    width: 52px;
+    left: 380px;
+    top: 41px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFFFFF;
   }
   
-  .cabecalho h2 {
-    display: none;
-  }
+ 
   .cabecalho .barra{
-    display: none;
+    height: 40px;
+    width: 450px;
+    margin-top: 140px;
+    border-radius: 5px;
+    background: #FFFFFF33 20%;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
   }
   .cabecalho .pesquisa{
-    display: none;
+    position: absolute;
+    height: 23.44px;
+    width: 23.44px;
+    left: 60px;
+    top: 150px;
+    border: none;
   }
   .cabecalho{
     width: 100%;
